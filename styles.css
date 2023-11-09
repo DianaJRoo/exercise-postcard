@@ -20,19 +20,26 @@ body {
 }
 .postcard-header h1 {
 	width: 400px;
-	margin: 0cm;
+	margin: auto;
 }
 .postcard-body {
 	display: flex;
 }
 .body-left {
-	padding: 40px;
+	padding: 0.5cm;
+	font-family: cursive;
+	font-style: italic;
+	font-size: 15px;
 }
 .body-right {
-	padding: 20px;
+	padding: 0.5cm;
+	font-family: cursive;
+	font-size: small;
+	line-height: 1.5ch;
+	letter-spacing: 0cm;
 }
 input {
-	border: 10cm;
+	border: 20cm;
 	border-bottom: 3cm;
 }
 .postcard-footer {
@@ -41,4 +48,6 @@ input {
 button {
 	background-color: pink;
 	padding: 1.5ch;
+	font-size: 18px;
+	font-family: "Times New Roman", Times, serif;
 }
