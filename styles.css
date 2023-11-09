@@ -2,7 +2,6 @@ body {
 	background: black;
 }
 * {
-	border: 1px dashed red;
 	min-height: 10px;
 }
 .postcard {
@@ -17,10 +16,11 @@ body {
 .postcard-header img {
 	width: 50px;
 	height: 50px;
+	margin: 0.3cm;
 }
 .postcard-header h1 {
 	width: 400px;
-	margin: auto;
+	margin: 0.3cm;
 }
 .postcard-body {
 	display: flex;
@@ -40,14 +40,14 @@ body {
 }
 input {
 	border: 20cm;
-	border-bottom: 3cm;
+	border-bottom: 5cm;
 }
 .postcard-footer {
 	text-align: center;
 }
 button {
 	background-color: pink;
-	padding: 1.5ch;
-	font-size: 18px;
+	padding: 1ch;
+	font-size: 15px;
 	font-family: "Times New Roman", Times, serif;
 }
