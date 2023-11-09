@@ -20,8 +20,25 @@ body {
 }
 .postcard-header h1 {
 	width: 400px;
-	margin: auto;
+	margin: 0cm;
 }
 .postcard-body {
 	display: flex;
+}
+.body-left {
+	padding: 40px;
+}
+.body-right {
+	padding: 20px;
+}
+input {
+	border: 10cm;
+	border-bottom: 3cm;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: pink;
+	padding: 1.5ch;
 }
